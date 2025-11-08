@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pseudo-Class Demo</title>
+  <style>
+    /* Hover effect */
+    button:hover {
+      background-color: #ff69b4;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Focus effect */
+    input:focus {
+      border: 2px solid quickpink;
+      outline: none;
+    }
+
+    /* First child styling */
+    p:first-child {
+      font-weight: bold;
+      color: crimson;
+    }
+
+    /* Last child styling */
+    p:last-child {
+      font-style: italic;
+      color: darkgreen;
+    }
+
+    /* nth-child styling */
+    li:nth-child(odd) {
+      background-color: white;
+    }
+
+    li:nth-child(even) {
+      background-color: lightgray;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <h2>Pseudo-Class Examples</h2>
+
+  <button>Hover over me</button><br><br>
+
+  <input type="text" placeholder="Click to focus"><br><br>
+
+  <div>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <p>This is the last paragraph.</p>
+  </div>
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+
+  <a href="#">Click me</a>
+
+</body>
+</html>
