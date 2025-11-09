@@ -21,9 +21,12 @@
     </style>
 </head>
 <body>
+    <img src="spongey.webp" height="200" width="200" style="float:none;">
+    <img src="spongebob.webp" height="200" width="200" style="float:right;">
     <div class="box">
         <h2 style="color:aliceblue" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Box Model Example</h2>
         
     </div>
+    
 </body>
 </html>
