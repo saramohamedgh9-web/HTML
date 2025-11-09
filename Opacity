@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Opacity Examples</title>
+    <style>
+div { background-color: firebrick; height: 70px;box-shadow: 6px 5px 7px; }
+div.first { opacity: 0.1; }
+div.second { opacity:0.3; }
+div.third { opacity: 0.6; }
+</style>
+</head>
+<body>
+ <h1>The opacity Property</h1>
+ <p><strong>This is how it looks:</strong></p><br>
+ <div class="first"><p>opacity 0.1</p></div>
+ <div class="second"><p>opacity 0.3</p></div>
+ <div class="third"><p>opacity 0.6</p></div>
+ <div><p>opacity 1 (deafault)</p></div>
+</body>
+</body>
+</html>
