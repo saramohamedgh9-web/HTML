@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning and Opacity in CSS</title>
+    <style>
+        div.sticky {
+        position: sticky;
+        top:10px;
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;}
+        div.fixed {
+            position:fixed;
+            top: 30px;
+            right: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: lightseagreen;}
+            div.relative {
+                position: relative;
+                top:50px;
+                left: 50px;
+                width: 200px;
+                height: 200px;
+                background-color: aqua;
+            }
+            div.absolute {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 100px;
+                height: 100px;
+                background-color: gold;
+            }
+            div{
+ height: 100px; background-color: crimson; box-shadow: 8px 7px 8px;
+}
+div.first{
+    opacity: 0.1;
+}
+div.second{
+    opacity: 0.3;
+}
+div.third{
+    opacity: 0.6; 
+}
+    </style>
+</head>
+<body>
+<h1>The opacity Property</h1>
+ <p><strong>This is how it looks:</strong></p><br>
+ <div class="first"><p>opacity 0.1</p></div>
+ <div class="second"><p>opacity 0.3</p></div>
+ <div class="third"><p>opacity 0.6</p></div>
+ <div><p>opacity 1 (deafault)</p></div>
+ <div class="sticky">This is sticky position </div>
+    <div class="fixed">This is fixed position</div>
+    <div class="relative">This is relative position
+    <div class="absolute">This is absolute position</div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1>End of the page </h1>
+</body>
+</html>
