@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    a:hover {
+        color: mediumvioletred;
+    }
+    /*Child selector*/
+    div > p {
+        color: blue;}
+    /*Sibling selector*/
+    h1 + p {
+        color: green;}
+    /* hover Peseudo Class */
+    ul li:hover {
+        color: red;
+     stroke-dashoffset: 0cqmin;
+    }
+    /* nth-child Pseudo Class */
+    ul li:nth-child(2) {
+        color:darkorchid;}
+    /* not(selector) Pseudo Class */
+    ul li:not(.special) {
+        color: orange;}
+</style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This paragraph is styled using the sibling selector.</p>
+
+    <div>
+        <p>This paragraph is a direct child of a div and is styled using the child selector.</p>
+    </div>
+
+    <ul>
+        <li>First item</li>
+        <li class="special">Second item (special)</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+    </ul>
+
+    <a href="#">Hover over this link to see the effect.</a>
+    
+</body>
+</html>
