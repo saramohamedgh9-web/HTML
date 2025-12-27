@@ -1,0 +1,67 @@
+/* Navigation bar styles for activity 1*/
+
+/* Smooth scrolling effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body reset and font settings */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(76, 97, 97);
+}
+/* Navigation container styling */
+.navigation {
+  background-color: #000000;
+}
+/* Navigation link styling */
+.navigation-link {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+.navigation-link:hover {
+  color: red !important;
+}
+ 
+/* Text color utilities */
+.text-white {
+  color: white;
+}
+.text-danger {
+  color: red !important;
+}
+/* Brand/Logo styling */
+h5.text-white {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Icon styling */
+.fa-code {
+  margin-right: 8px;
+}
+
+/* Responsive adjstments */
+@media (max-width: 768px) {
+  .navigation-link {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+  .col-6 {
+    padding: 10px;
+  }
+}
+/* Additional hover effects */
+.navigation-link:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+/* Container padding adjustments */
+.container.navigation {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
