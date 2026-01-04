@@ -1,15 +1,16 @@
 body {
-  background-color: #1f2235;
+  background-color: #f5a8a8;
+  color: #fa6e73;
 }
 
 /* Social Media Section */
 #social-media {
-  background-color: #1f2235;
+  background-color: #f5a8a8;
 }
 
 /* Social Media Cards */
 .media_link {
-  background-color: #2f2f4f;
+  background-color: #fae4e4;
   padding: 15px 20px;
   border-radius: 10px;
   font-size: 18px;
@@ -20,15 +21,21 @@ body {
 /* Icon size */
 .media_link i {
   font-size: 24px;
-  color: #9fa8da;
+  color: #f87074;
+}
+
+.span {
+  margin-left: 10px;
+  font-weight: 600;
+  color: #fa6e73;
 }
 
 /* Hover effect */
 .media_link:hover {
-  background-color: #3f3f6f;
+  background-color: #f88ca0;
 }
 
 /* Footer */
 footer {
-  background-color: #111;
+  background-color:#fae4e4
 }
