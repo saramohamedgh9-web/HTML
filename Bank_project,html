@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Bank App</title>
+  <style>
+    body {
+    text-align: center;
+    background-color: #f5a8a8;
+    }
+
+    .text1 {
+      color: #fae4e4;
+      
+    }
+
+    .text2 {
+      color: #fae4e4;
+    }
+
+    .text3 {
+      color: #fae4e4;
+    }
+
+    .text4 {
+      color: #f5a8a8;
+      background-color: #a15d5f;
+    }
+
+    .p1 {
+      font-family: "Times New Roman", Times, serif;
+      color: #fae4e4;
+    }
+
+    .p2 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #Transaction{
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="text1">Bank App</h1>
+
+  <p class="text2 p1">Decide the required fields in your bank app. The mandatory fields are:</p>
+
+  <form>
+    <label class="text3 p2" id="Transaction" for="amount">Enter Transaction Amount:</label><br><br>
+    <input type="number" id="amount" name="amount" color="#fae4e4"/><br><br>
+
+    <button type="button" class="text4"><strong>Credit</strong></button>
+    <button type="button" class="text4"><strong>Debit</strong></button>
+  </form>
+
+  <p class="p1">Your Account Balance is: 0 SAR</p>
+
+</body>
+</html>
