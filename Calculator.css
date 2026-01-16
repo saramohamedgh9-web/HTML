@@ -11,10 +11,11 @@ body {
 /*Calculator box*/
 #calculator {
     width: 320px;
-    height: 520px;
+    height: 550px;
     background-color: #edbdbd;
     margin: 0 auto;
     position: relative;
+    bottom: 50px;
     top: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(5, 4, 6, 6);
@@ -27,18 +28,21 @@ body {
 
 #history{
     text-align: right;
-    height: 40px;
+    height: 30px;
     margin: 10px 20px;
     padding: 10px;
     font-size: 20px;
     color: #dda1a1;
-    border: #dda1a1;
+    border: #eca4a4;
 }
 #output{
     text-align: right;
-    height: 60px;
+    height: 30px;
     margin: 10px 20px;
-    font-size: 30px;
+    font-size: 35px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    border: #eca4a4;
     font-weight: bold;
 }
 
@@ -74,7 +78,7 @@ body {
     cursor: pointer;
 }
 .operator:hover{
-    background-color: #ffdcdcc0;
+    background-color: #eec4c4 ;
 }
 /*empty buttons*/
 .empty{
