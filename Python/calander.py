@@ -4,7 +4,7 @@ import datetime
 current_time = datetime.datetime.now()
 
 # Printing value of now
-print("Time now at Riyadh, Saudi Arabis is:", end=" ")
+print("Time now at Riyadh, Saudi Arabia is:", end=" ")
 print(current_time)
 
 # Print calendar of year 2026
