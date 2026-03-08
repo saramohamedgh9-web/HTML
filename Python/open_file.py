@@ -1,0 +1,1 @@
+file = open("fibbonaci_project.py", "r")  # Open the file in read mode
