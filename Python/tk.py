@@ -1,20 +1,24 @@
-from tkinter import*
+from tkinter import *
 
 window = Tk()
-window.title("Welcome to LikeGeeks app")
-window.geometry('350x200')
-lbl = Label(text="Hello", font=("Arial Bold", 50), fg="orange", bg="olive")
-btn = Button(text="Click Me", bg="orange", fg="olive")
-entry = Entry(width=10, bg="pink", fg="yellow")
-lbl.pack()
-btn.pack()
+window.title('Tkinter Sample Window')
+window.geometry('300x300')
+
+greeting = Label(window, text="Hello User", fg='black', bg='white')
+button = Button(window, text="Click me", bg='black', fg='white')
+entry = Entry(window, fg="yellow", bg="blue", width=50)
+
+greeting.pack()
+button.pack()
 entry.pack()
 
-frame = Frame(master=window, relief=RAISED, borderwidth=5) 
+frame = Frame(window, relief=RAISED, borderwidth=5)
 frame.pack()
-label = Label(frame, text="This is a frame", bg="cyan", fg="black")
+
+label = Label(frame, text='Sample Frame')
 label.pack()
-text=Text(frame, height=5, width=20, bg="cyan", fg="black")
-text.pack()
 
+textbox = Text(frame, fg='green', bg='yellow')
+textbox.pack()
 
+window.mainloop()
